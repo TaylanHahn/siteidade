@@ -1,0 +1,52 @@
+@charset "utf-8";
+@font-face {
+    font-family: ananda;
+    src: url(arq/ananda.ttf);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url(https://blog.vinhobr.com.br/wp-content/uploads/2020/03/drinking-glass-wine-macro-wallpaper-preview.jpg);
+    background-size: cover;
+}
+ 
+.maior{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    min-height: 80vh;
+
+    /*Opacidade no fundo*/
+    content: "";
+    height: 100%;
+    width: 100%;
+    z-index: 8;
+    position: absolute;
+    background: linear-gradient(to bottom, rgbA(0,0,0,0) 0, rgbA(0,0,0,0) 10%,#000000 100%);
+}
+
+h1{
+    font-family: sans-serif;
+    margin-bottom: 0;
+    font-weight: 900;
+    font-size: 5em;
+    color: #a71f63;
+    text-shadow: #000000 3px 3px;
+}
+
+h2{
+    font-family: ananda, sans-serif;
+    font-size: 3em;
+    color: #ffffff;
+    margin: 0;
+    text-shadow: #000000 3px 3px;
+}
+
+img{
+    margin-top: 2%;
+}
